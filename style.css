@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background-color: rgb(122, 120, 120);
+    width: 95vw;
+    overflow-y: auto;
+    height: 100vh;
+    font-family: "Playfair Display", serif;
+
+}
+
+.container {
+    display: flex;
+    font-family: "Playfair Display", serif;
+}
+
+.sidebar{
+  position: absolute;
+    background-color: rgb(63, 61, 61);
+    transition: transform 0.3s ease-in;
+    height: 100vh;
+    font-family: "Playfair Display", serif;
+    
+}
+
+.sidebar nav {
+    padding: 40px;
+    font-family: "Playfair Display", serif;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: large;
+    padding: 34px 0;
+    font-family: "Playfair Display", serif;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Playfair Display", serif;
+}
+
+.info-Container {
+    background-color:rgb(76, 74, 74);
+    height: 30vw;
+    width: 75vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Playfair Display", serif;
+}
+
+.devPic img {
+    width: 25vw;
+    height: 60vh;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-family: "Playfair Display", serif;
+    font-family: "Playfair Display", serif;
+}
+
+.hello {
+    font-size: 30px;
+
+
+}
+
+.name {
+    font-size: 40px;
+}
+
+.about {
+    font-size: 15px;
+
+
+}
+
+.btn {
+    padding: 10px 10px;
+    margin: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(96, 96, 221);
+    font-size: 15px 0;
+    font-weight: 24px;
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+}
+
+.btn-sm {
+    padding: 7px 15px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+.btn-sm:hover {
+    color: rgb(102, 129, 218);
+    background-color: rgb(236, 236, 241);
+}
+
+.buttons button:hover {
+    color: rgb(102, 129, 218);
+    background-color: rgb(236, 236, 241);
+}
+
+.contactform {
+    padding: 80px 40px;
+    font-family: "Playfair Display", serif;
+    margin:0 88px;
+}
+
+.contactform h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 12px 5px;
+    font-family: "Playfair Display", serif;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    font-family: "Playfair Display", serif;
+
+
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0px 5px;
+    padding: 3px 0 0 0;
+    font-family: "Playfair Display", serif;
+}
+
+.contactform form div input {
+    padding: 3px;
+    border-radius: 8px;
+    margin: 6px 0;
+    font-family: "Playfair Display", serif;
+}
+
+.mb-3 {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    font-family: "Playfair Display", serif;
+}
+
+#form-check {
+    flex-direction: row;
+    font-family: "Playfair Display", serif;
+
+}
+
+#form-check input {
+    width: 34px;
+    margin: 1px 8px;
+    font-family: "Playfair Display", serif;
+}
+.blogContainer{
+    margin: 0 60px;
+}
+.blogItem {
+    margin: 30px;
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    margin: 23px;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: "Playfair Display", serif;
+}
+
+.blogItem>img {
+    width:30vw;
+    height: 60vh;
+    margin:20px;
+    text-align:center;
+    box-shadow: 10px 20px 20px #301f1f;
+    font-family:"Playfair Display", serif;
+    position: relative;
+    left:200px;
+}
+
+#images {
+    width: 30px;
+    margin: 20px;
+    margin: 5px;
+}
+
+#i-img {
+    margin: 20px;
+    text-align: center;
+    box-shadow: 20px 20px 20px #301f1f;
+    width: 30vw;
+    height: 60vh;
+    font-family: "Playfair Display", serif;
+    position: relative;
+    left:400px;
+}
+
+.intro{
+    width:0 60px;
+}
+.intro h2{
+    margin: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+.intro p{
+    font-size: 18px;
+    padding: 10px 13px;
+    font-family: "Playfair Display", serif;
+    margin: 5px;
+
+}
+
+.skillContainer {
+    padding: 12px;
+    font-family: "Playfair Display", serif;
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+    font-family: "Playfair Display", serif;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    margin: 10px 12px;
+    font-family: "Playfair Display", serif;
+}
+
+.hundred {
+    width: 300px;
+    background-color: #c1a518;
+    font-family: "Playfair Display", serif;
+}
+
+.fifty {
+    width: 125px;
+    background-color: rgb(22, 22, 120);
+    font-family: "Playfair Display", serif;
+}
+
+.t5 {
+    width: 125px;
+    background-color: rgb(207, 15, 31);
+    font-family: "Playfair Display", serif;
+}
+
+#text-gap {
+    padding: 10px 22px;
+    font-family: "Playfair Display", serif;
+}
+
+.serviesContainer{
+    margin: 30px;
+    font-family: "Playfair Display", serif;
+}
+.servicesInfo img{
+    margin: 20px;
+    box-shadow: 10px 20px 20px #301f1f;
+    font-family:"Playfair Display", serif;
+  position: relative;
+  left: 250px;
+  width:320px;
+  height:350px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamurger{
+  position: absolute;
+  cursor: pointer;
+  top:16px;
+  left:10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}.cross{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+.contact{
+    position: relative;
+    margin-left: -15px;
+    top: 15px;
+}
+@media  (max-width: 1615px){
+    
+        /* background-colr:rgb(79, 72, 72); */
+   
+  .devPic img{
+    display:nne;
+  }
+  .intro{
+    width:0 8px;
+}
+}
+
+/* Basic styles for FAQ page */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section {
+    margin-bottom: 20px;
+}
+
+.faq-section h2 {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.faq-section p {
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
